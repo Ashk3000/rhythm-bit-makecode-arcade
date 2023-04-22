@@ -1,0 +1,12 @@
+{
+    "image1": {
+        "data": "hwQQABAAAAAAAAAAMwAAAAAAAAAzAwAAAAAAABMzAAAAAAAAEzEDADAzMzMTETMAMxERERMRMQMTERERERERMxMRERERERExExERERERETETERERERERMTMRERETETEDMDMzMxMRMwAAAAAAEzEDAAAAAAATMwAAAAAAADMDAAAAAAAAMwAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Down Arrow"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
