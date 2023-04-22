@@ -33,9 +33,19 @@ function pressArrow (arrow: number) {
         }
     }
 }
+controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
+    pressArrow(0)
+    console.log("" + game.runtime() + ", ")
+    console.log("2, ")
+})
 sprites.onCreated(SpriteKind.LeftArrow, function (sprite) {
     sprite.setPosition(scene.screenWidth() / 6 * 1, 0)
     sprite.setVelocity(0, 50)
+})
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    pressArrow(3)
+    console.log("" + game.runtime() + ", ")
+    console.log("0, ")
 })
 sprites.onCreated(SpriteKind.RightArrow, function (sprite) {
     sprite.setPosition(scene.screenWidth() / 6 * 5, 0)
