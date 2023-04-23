@@ -39,7 +39,7 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
     console.log("2, ")
 })
 sprites.onCreated(SpriteKind.LeftArrow, function (sprite) {
-    sprite.setPosition(scene.screenWidth() / 6 * 1, 0)
+    sprite.setPosition(scene.screenWidth() / 5 * 1, 0)
     sprite.setVelocity(0, 50)
 })
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
@@ -48,7 +48,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     console.log("0, ")
 })
 sprites.onCreated(SpriteKind.RightArrow, function (sprite) {
-    sprite.setPosition(scene.screenWidth() / 6 * 5, 0)
+    sprite.setPosition(scene.screenWidth() / 5 * 4, 0)
     sprite.setVelocity(0, 50)
 })
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
@@ -57,7 +57,7 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     console.log("2, ")
 })
 sprites.onCreated(SpriteKind.UpArrow, function (sprite) {
-    sprite.setPosition(scene.screenWidth() / 6 * 4, 0)
+    sprite.setPosition(scene.screenWidth() / 5 * 3, 0)
     sprite.setVelocity(0, 50)
 })
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
@@ -71,7 +71,7 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     console.log("1, ")
 })
 sprites.onCreated(SpriteKind.DownArrow, function (sprite) {
-    sprite.setPosition(scene.screenWidth() / 6 * 2, 0)
+    sprite.setPosition(scene.screenWidth() / 5 * 2, 0)
     sprite.setVelocity(0, 50)
 })
 let Arrow_Num = 0
